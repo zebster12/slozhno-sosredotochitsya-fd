@@ -8,15 +8,7 @@
   --decor-color: #ff8dcb;
   --title-color: #ffc2e6;
   --box-shadow: #FF8DCB;
-
-
-
-
-
-
-
-
-
+  --cart-color-text:#353430;
 }
 
 @media (prefers-color-scheme: light) {
