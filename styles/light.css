@@ -1,12 +1,22 @@
 :root.theme-light {
   --cart-color-text: #353430;
-  --bg-color: #fff;
+  --bg-color: #FFF1F7;
   --text-color: #353430;
   --image-bg: url(../images/cover-image-light.png);
   --display-none: none;
   --border-hover-color: rgb(50, 49, 45, 0.4);
   --decor-color: #ff8dcb;
   --title-color: #ffc2e6;
+  --box-shadow: #FF8DCB;
+
+
+
+
+
+
+
+
+
 }
 
 @media (prefers-color-scheme: light) {
