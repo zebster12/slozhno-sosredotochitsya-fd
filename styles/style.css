@@ -124,7 +124,8 @@
 }
 
 .main {
-  padding: 41px 10px;
+  
+  padding: 40px 10px;
 }
 
 .content__title {
@@ -202,7 +203,7 @@
   grid-template-rows: 142px 355px 237px 355px 237px;
   gap: 10px;
   box-sizing: border-box;
-  margin-block-end: 40px;
+  
 }
 
 .gallery__item {
@@ -307,7 +308,7 @@ a:focus-visible {
   }
 
   .main {
-    padding: 61px 21px 30px;
+    padding: 61px 21px;
   }
 
   .section-content {
@@ -393,6 +394,7 @@ a:focus-visible {
   .header {
     margin-bottom: 15px;
     padding: 17px 1px 0px 0px;
+    
   }
 
   .decorated-zone::before {
