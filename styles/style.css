@@ -79,9 +79,10 @@
 }
 
 .header__theme-menu-button {
+  border: none;
   width: 70px;
   height: 26px;
-  border: 1px solid #ff0070;
+  
   color: var(--text-color);
   font-family: var(--font-family);
   font-weight: 400;
@@ -392,13 +393,15 @@ a:focus-visible {
 
 @media (width >= 1024px) {
   .header {
-    margin-bottom: 15px;
-    padding: 17px 1px 0px 0px;
+    
+    padding: 20px 20px 20px 0px;
     
   }
 
+
+
   .decorated-zone::before {
-    top: 37px;
+    top: 21px;
     right: 20px;
   }
 
@@ -408,7 +411,7 @@ a:focus-visible {
   }
 
   .header__rec {
-    top: 37px;
+    top: 22px;
     right: 48px;
   }
 
@@ -419,14 +422,15 @@ a:focus-visible {
   .header__text {
     width: 491px;
     height: 71px;
-    margin-inline-end: 20px;
+   
     font-size: 18px;
+
   }
 
   .header__theme-menu {
     justify-self: center;
     align-self: start;
-    padding-block-start: 19px;
+    
   }
 
   .header__theme-menu-list {
