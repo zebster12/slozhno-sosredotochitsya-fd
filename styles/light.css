@@ -1,6 +1,6 @@
 :root.theme-light {
   --image-bg: url(../images/cover-image-light.png);
-  --bg-color: #ffeef6;
+  --bg-color: #FFF1F7;
   --text-color: #353430;
   --font-family: "IBM Plex mono", sans-serif;
   --card-color-text: #353430;
@@ -18,7 +18,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --image-bg: url(../images/cover-image-light.png);
-    --bg-color: #ffeef6;
+    --bg-color: #FFF1F7;
     --text-color: #353430;
     --font-family: "IBM Plex mono", sans-serif;
     --card-color-text: #353430;
