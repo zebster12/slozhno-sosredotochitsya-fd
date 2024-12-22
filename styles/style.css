@@ -185,9 +185,8 @@
 
 .gallery__grid {
   display: grid;
-  grid-template-rows: 142px 355px 237px 355px 237px;
+
   gap: 10px;
-  box-sizing: border-box;
 }
 
 .gallery__title {
@@ -195,7 +194,6 @@
 }
 
 .gallery__item {
-  box-sizing: border-box;
   margin: 0;
 }
 
