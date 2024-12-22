@@ -4,13 +4,17 @@
   --bg-color:#000028;
   --text-color:#F1B2CE;
   --font-family:'IBM Plex mono',sans-serif;
-  --decor-color:#FF0070;
-  --decor-color-text:#000028;
-  --cart-color-text:#F1B2CE;
+  --card-color-text:#F1B2CE;
   --title-color:#DB00FF;
   --display-none:block;
   --box-shadow:#FF0070;
   --border-hover-color:rgb(255, 0, 112, 0.4);
+  --focus-link:#F1B2CE;
+  --color-link-shadow:#FF0070;
+  --bg-decor:#FF0070;
+  --color-decor:#000028;
+  --section-title:#FF0070;
+
 }
 
 
