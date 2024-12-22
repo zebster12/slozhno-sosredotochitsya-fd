@@ -1,7 +1,7 @@
 .page {
   object-position: center;
-  font-family: var(--font-family), "Arial", sans-serif;
-  background-color: var(--bg-color), #000028;
+  font-family: var(--font-family, "Arial", sans-serif);
+  background-color: var(--bg-color,#000028);
   background-image: var(--image-bg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,7 +190,7 @@
   box-sizing: border-box;
 }
 
-.gallery__title{
+.gallery__title {
   margin-bottom: 10px;
 }
 
