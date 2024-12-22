@@ -281,6 +281,10 @@ a:focus-visible {
     padding: 60px 20px;
   }
 
+
+  .card-block{
+    margin-bottom: 80px;
+  }
   .card-block_column {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -362,6 +366,8 @@ a:focus-visible {
     padding-left: 0;
   }
 
+ 
+
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -403,12 +409,12 @@ a:focus-visible {
   }
 
   .content {
-    padding: 60px 20px;
+    padding: 64px 20px;
   }
 
   .card-block {
-    margin-bottom: 80px;
-  }
+    margin-bottom: 85px;
+}
   .card-block_column {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -421,7 +427,7 @@ a:focus-visible {
   }
 
   .card__list {
-    gap: 21px;
+    gap: 20px;
   }
 
   .card-text {
@@ -430,11 +436,11 @@ a:focus-visible {
 
   .card-block_row {
     flex-direction: row;
-    gap: 20px;
+    
   }
 
   .card-block_row .card__item {
-    flex-grow: 1;
+    max-width: 315px;
   }
 
   .card__title {
@@ -444,7 +450,7 @@ a:focus-visible {
   .gallery__grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: 192px 230px 318px;
+    grid-template-rows: 260px 315px 433px;
     grid-auto-flow: dense;
     gap: 20px;
     padding: 0;
@@ -489,14 +495,7 @@ a:focus-visible {
     grid-column: 2 span;
   }
 
-  .gallery__grid {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: 260px 315px 433px;
-    grid-auto-flow: dense;
-    gap: 20px;
-    padding: 0;
-  }
+  
 
   .footer {
     display: flex;

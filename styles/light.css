@@ -1,12 +1,12 @@
 :root.theme-light {
   --image-bg: url(../images/cover-image-light.png);
-  --bg-color: #ffc2e6;
+  --bg-color: #FFC2E6;
   --text-color: #353430;
   --font-family: "IBM Plex mono", sans-serif;
   --card-color-text: #353430;
   --title-color: #ffc2e6;
   --display-none: none;
-  --box-shadow: #ff0070;
+  --box-shadow: #FF8DCB;
   --border-hover-color: rgb(50, 49, 45, 0.4);
   --focus-link: #353430;
   --color-link-shadow: #ff0070;
@@ -18,7 +18,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --image-bg: url(../images/cover-image-light.png);
-    --bg-color: #ffc2e6;
+    --bg-color: #FFC2E6;
     --text-color: #353430;
     --font-family: "IBM Plex mono", sans-serif;
     --card-color-text: #353430;
@@ -33,3 +33,4 @@
     --section-title: #353430;
   }
 }
+
