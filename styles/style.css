@@ -8,7 +8,6 @@
   background-attachment: fixed;
   block-size: 100vh;
   inline-size: 100%;
-  
 }
 
 .header {
@@ -286,7 +285,7 @@ a:focus-visible {
     padding: 60px 20px;
   }
 
-  .card-block{
+  .card-block {
     margin-bottom: 80px;
   }
 
@@ -330,7 +329,7 @@ a:focus-visible {
     margin: 0;
   }
 
-  .gallery__title{
+  .gallery__title {
     margin-bottom: 20px;
   }
 
@@ -419,7 +418,6 @@ a:focus-visible {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 11px;
-    
   }
 
   .card-block__title {
@@ -436,7 +434,6 @@ a:focus-visible {
 
   .card-block_row {
     flex-direction: row;
-    
   }
 
   .card-block_row .card__item {
