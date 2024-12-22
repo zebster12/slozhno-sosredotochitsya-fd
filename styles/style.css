@@ -8,6 +8,7 @@
   background-attachment: fixed;
   block-size: 100vh;
   inline-size: 100%;
+  
 }
 
 .header {
@@ -123,7 +124,7 @@
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .title-decor {
@@ -136,7 +137,7 @@
 }
 
 .card-block {
-  margin-block-end: 54px;
+  margin-block-end: 50px;
 }
 
 .card-block__title {
@@ -156,27 +157,31 @@
 
 .card-block__subtitle {
   margin-block-end: 20px;
+  font-size: 18px;
 }
 
 .card__list {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
 }
+
 .card__title {
-  margin-block-end: 12px;
+  margin-block-end: 10px;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .card__text {
   color: var(--card-color-text);
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .gallery__grid {
@@ -281,15 +286,15 @@ a:focus-visible {
     padding: 60px 20px;
   }
 
-
   .card-block{
     margin-bottom: 80px;
   }
+
   .card-block_column {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-    margin-bottom: 83px;
+    margin-bottom: 81px;
   }
 
   .card-block__title {
@@ -297,7 +302,7 @@ a:focus-visible {
   }
 
   .card__list {
-    gap: 21px;
+    gap: 20px;
   }
 
   .card-text {
@@ -305,7 +310,7 @@ a:focus-visible {
   }
 
   .card__title {
-    margin-block-end: 12px;
+    margin-block-end: 10px;
   }
 
   .content__list {
@@ -323,6 +328,10 @@ a:focus-visible {
 
   .gallery__item {
     margin: 0;
+  }
+
+  .gallery__title{
+    margin-bottom: 20px;
   }
 
   .content__image-title {
@@ -366,8 +375,6 @@ a:focus-visible {
     padding-left: 0;
   }
 
- 
-
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -408,18 +415,11 @@ a:focus-visible {
     flex-direction: row;
   }
 
-  .content {
-    padding: 64px 20px;
-  }
-
-  .card-block {
-    margin-bottom: 85px;
-}
   .card-block_column {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 11px;
-    margin-bottom: 83px;
+    
   }
 
   .card-block__title {
@@ -441,10 +441,6 @@ a:focus-visible {
 
   .card-block_row .card__item {
     max-width: 315px;
-  }
-
-  .card__title {
-    margin-block-end: 12px;
   }
 
   .gallery__grid {
@@ -494,8 +490,6 @@ a:focus-visible {
   .gallery__item:nth-child(5) {
     grid-column: 2 span;
   }
-
-  
 
   .footer {
     display: flex;
