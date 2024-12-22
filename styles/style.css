@@ -185,7 +185,7 @@
 
 .gallery__grid {
   display: grid;
-  grid-template-rows: 142px 355px 237px 355px 237px;
+  
   gap: 10px;
 }
 
