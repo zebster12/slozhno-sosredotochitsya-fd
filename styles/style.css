@@ -137,10 +137,12 @@
 
 .card-block {
   margin-block-end: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .card-block__title {
-  margin-block-end: 20px;
   color: var(--section-title);
   font-weight: 700;
   font-size: 18px;
@@ -289,7 +291,7 @@ a:focus-visible {
   .card-block {
     display: grid;
     margin-bottom: 80px;
-    column-gap: 20px;
+    gap: 20px;
   }
 
   .card-block_column {
