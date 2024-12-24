@@ -291,7 +291,6 @@ a:focus-visible {
   .card-block {
     display: grid;
     margin-bottom: 80px;
-    gap: 20px;
   }
 
   .card-block_column {
